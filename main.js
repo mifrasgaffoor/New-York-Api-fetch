@@ -78,11 +78,6 @@ function createEl(element){
 }
 
 
-
-
-
-
-
 function createElnav(element){
   const cardmb3 = document.createElement("div");
          home.appendChild(cardmb3);
@@ -145,31 +140,6 @@ function createElnav(element){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  
    const navlink= document.querySelectorAll(".nav-link");
    navlink.forEach((value)=>{
@@ -195,9 +165,7 @@ function createElnav(element){
     })
   
   
-  
-    
-
+ 
     fetch(apiData.Home)
     .then((res)=>{
         return (res.json());

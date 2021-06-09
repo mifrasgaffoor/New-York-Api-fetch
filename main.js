@@ -109,8 +109,7 @@ function createElnav(element){
         title.className="card-title";
         cardbody.appendChild(title);
         title.innerHTML=element.title;
-  
-  
+ 
   
         const carddate = document.createElement("p");
         carddate.className="card-text";
@@ -138,11 +137,7 @@ function createElnav(element){
          image.style.height="100%"
          image.style.width="100%"
          image.setAttribute('src' ,element.multimedia[4].url )
-}
-
-
- 
-   const navlink= document.querySelectorAll(".nav-link");
+} const navlink= document.querySelectorAll(".nav-link");
    navlink.forEach((value)=>{
       console.log(value.id);
       value.addEventListener('click' , function(){
@@ -164,10 +159,7 @@ function createElnav(element){
   
       })
     })
-  
-  
- 
-    fetch(apiData.Home)
+   fetch(apiData.Home)
     .then((res)=>{
         return (res.json());
     }).then((data)=>{
@@ -181,9 +173,6 @@ function createElnav(element){
         console.log(err);
     })
  
-
-
-    
   
 
 

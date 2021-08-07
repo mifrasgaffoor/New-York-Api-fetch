@@ -77,7 +77,6 @@ function createEl(element){
          image.setAttribute('src' ,element.multimedia[4].url )
 }
 
-
 function createElnav(element){
   const cardmb3 = document.createElement("div");
          home.appendChild(cardmb3);
@@ -174,8 +173,3 @@ function createElnav(element){
     })
  
   
-
-
-
-
- 

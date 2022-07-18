@@ -12,7 +12,7 @@ datetext.innerHTML= datafordiv.toDateString()
   let apiData = {
     API_Key : "pM577cq8GZXc5pZL5WlIPNbF4OXtVHlr",
     url:"https://api.nytimes.com/svc/topstories/v2/" ,  
-    Home : "https://api.nytimes.com/svc/topstories/v2/home.json?api-key=pM577cq8GZXc5pZL5WlIPNbF4OXtVHlr" ,
+    Home : "https://api.nytimes.com/svc/topstories/v2/home.json?api-key=<<...enter your api key...>>" ,
   }
 
 
